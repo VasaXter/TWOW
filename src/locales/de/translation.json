@@ -1,0 +1,600 @@
+{
+    "common": {
+        "expansions": "Erweiterungen",
+        "Step": "Schritte",
+        "players": "Spieler",
+        "player1": "Spieler 1",
+        "player2": "Spieler 2",
+        "player3": "Spieler 3",
+        "player4": "Spieler 4",
+        "player5": "Spieler 5",
+        "gold_one": "{{count}} Gold",
+        "gold_other": "{{count}} Gold",
+        "card_one": "{{count}} Karte",
+        "card_other": "{{count}} Karten",
+        "card_witchertrophy_one": "{{count}} Hexer-Trophäenkarte",
+        "card_witchertrophy_other": "{{count}} Hexer-Trophäenkarten",
+        "card_witchermagetrophy_one": "{{count}} Hexer-/Magier-Trophäenkarte",
+        "card_witchermagetrophy_other": "{{count}} Hexer-/Magier-Trophäenkarten",
+        "token_level1_one": "{{count}} Rang I Plättchen",
+        "token_level1_other": "{{count}} Rang I Plättchen",
+        "token_shield_one": "{{count}} Schildmarker",
+        "token_shield_other": "{{count}} Schildmarker",
+        "underConstruction": "In Bearbeitung"
+    },
+    "navbar": {
+        "titleLong": "The Witcher: Die alte Welt Helfer",
+        "titleShort": "Die alte Welt Helfer",
+        "communityLinks": "$t(communityLinks.title)",
+        "gameplayTools": "Spiel-Tools",
+        "setupHelper": "$t(setupHelper.title)",
+        "locationTokens": "$t(locationTokens.title)",
+        "monsterRoller": "$t(monsterRoller.title)",
+        "lostMount": "$t(lostMount.title)",
+        "browseAllTools": "Entdecke alle Tools",
+        "projectHelp": "Projekt-Hilfe",
+        "githubIssues": "Github Fehler",
+        "githubDiscussions": "Github Diskussionen",
+        "projectTimeline": "$t(footer.projectTimeline)",
+        "__flag": "🇩🇪"
+    },
+    "monsterPicker": {
+        "toggle": "Umschalten bewirkt:",
+        "sirenExplain": "Sirene ausgeschlossen, da sie nicht zufällig gewählt werden kann",
+        "legendary": "Legendär",
+        "allLegendary": "Alle Legendären",
+        "title": "Würfel ein neues Monster"
+    },
+    "monsterRoller": {
+        "title": "Monster Würfeln"
+    },
+    "exps": {
+        "adventurePack": "Abenteuerset",
+        "lostMount": "Verlorenes Reittier",
+        "ciri": "Ciri",
+        "wildHunt": "Wilde Jagd",
+        "monsterTrail": "Monsterjagd",
+        "mages": "Zauberinnen und Magier",
+        "legendaryHunt": "Legendäre Monster",
+        "skellige": "Skellige",
+        "monsterPack": "Monster Paket",
+        "mountedEredin": "$t(monsters.Mounted Eredin)"
+    },
+    "locationTokens": {
+        "title": "Ortsplättchen",
+        "mountain": "Gebirge",
+        "forest": "Wald",
+        "water": "Wasser",
+        "Behelt Nar": "Behelt Nar",
+        "Kaer Seren": "Kaer Seren",
+        "Hengfors": "Hengfors",
+        "Kaer Morhen": "Kaer Morhen",
+        "Ban Ard": "Ban Ard",
+        "Cidaris": "Cidaris",
+        "Novigrad": "Novigrad",
+        "Vizima": "Wyzima",
+        "Vengerberg": "Vengerberg",
+        "Cintra": "Cintra",
+        "Haern Caduch": "Haern Caduch",
+        "Beauclair": "Beauclair",
+        "Glenmore": "Glenmore",
+        "Doldeth": "Doldeth",
+        "Loc Ichaer": "Loc Ichaer",
+        "Gorthur Gvaed": "Gorthur Gvaed",
+        "Dhuwod": "Dhuwod",
+        "Stygga": "Stygga",
+        "Ard Modron": "Ard Modron",
+        "Ard Skellig": "Ard Skellig",
+        "Isle of Mists": "Nebelinsel",
+        "Eyna": "Eyna"
+    },
+    "home": {
+        "linkedPages": [
+            {
+                "name": "$t(setupHelper.title)",
+                "link": "#/setupHelper",
+                "desc": "Eine dynamisch aktualisierte Zusammenfassung der Anleitungen für jede Erweiterung und Spielerkombination.",
+                "btn": "Wind kommt auf ..."
+            },
+            {
+                "name": "$t(locationTokens.title)",
+                "link": "#/locationTokens",
+                "desc": "Zieh einfach ein Ortsplättchen, immer zufällig Generiert, kein mischen der Karton-Plättchen nötig",
+                "btn": "Erkunde den Kontinent"
+            },
+            {
+                "name": "$t(monsterRoller.title)",
+                "link": "#/monsterRoller",
+                "desc": "Keine lust deine Plättchen und Monsterkarten zu mischen und nach der Miniatur zu suchen?",
+                "btn": "Nicht gerade eine Schönheit"
+            },
+            {
+                "name": "$t(communityLinks.title)",
+                "link": "#/communityLinks",
+                "desc": "Sammlunng von kleinen aber feinen Links der Spielergemeinschaft. Ständig aktualisiert!",
+                "btn": "Zeig her!"
+            },
+            {
+                "name": "$t(inventoryChecker.title)",
+                "link": "#/inventoryChecker",
+                "desc": "Hilfestellung für alle die ihre Kopie von The WItcher: Die alte Welt erst in die Hände bekommen haben, Hier findet ihr eine detailierte Ansicht aller Inhalte die ihr (hoffentlich) erhalten habt.",
+                "btn": "Die Medallions erklingen.."
+            },
+            {
+                "name": "$t(lostMount.title)",
+                "link": "#/lostMount",
+                "desc": "A more specific variant of the Location Token page with two tokens to choose from.",
+                "btn": "Komm, Plötze"
+            }
+        ]
+    },
+    "monsters": {
+        "Nekker's Nest": "Nekkernest",
+        "Arachas": "Krabbspinne",
+        "Archespore": "Archespore",
+        "Barghest": "Barghest",
+        "Foglet": "Nebling",
+        "Harpy": "Harpyie",
+        "Ghoul's Nest": "Ghulnest",
+        "Griffin": "Greif",
+        "Wyvern": "Wyvern",
+        "Werewolf": "Werwolf",
+        "Fiend": "Unhold",
+        "Noonwraith": "Mittagserscheinung",
+        "Leshen": "Waldschrat",
+        "Striga": "Striege",
+        "Bruxa": "Bruxa",
+        "Drowner's Nest": "Ertrunkenennest",
+        "Rotfiend": "Moderhaut",
+        "Ekimmara": "Ekimma",
+        "Nightwraith": "Nachterscheinung",
+        "Water Hag": "Wasserweib",
+        "Manticore": "Mantikor",
+        "Whispess": "Flüsterin",
+        "Weavess": "Weberin",
+        "Penitent": "Büßer",
+        "Grave Hag": "Gruftweib",
+        "Glustyworp": "Sägmaul",
+        "Brewess": "Brauerin",
+        "Yghern": "Yghern",
+        "Troll": "Troll",
+        "Dagon": "Dagon",
+        "Hound": "Hund",
+        "Hounds": "Hunde",
+        "Imperial Golem": "Golem",
+        "Cyclops": "Zyklop",
+        "Cave Troll": "Troll",
+        "Toad": "Kröte",
+        "Frightener": "Furchtbringer",
+        "Unseen Elder": "Der Unsichtbare",
+        "Ice Giant": "Eisriese",
+        "Gaunter O'Dimm": "Gaunter O'Dim",
+        "Eredin": "Eredin",
+        "Nithral": "Nithral",
+        "Imlerith": "Imlerith",
+        "Caranthir": "Caranthir",
+        "Koshchey": "Koschtschei",
+        "Kayran": "Kayran",
+        "Siren": "Sirene",
+        "Mounted Eredin": "Reiter Eredin",
+        "lvl1": "Rang I Monster",
+        "lvl2": "Rang II Monster",
+        "lvl3": "Rang III Monster",
+        "legendaryHunt": [
+            "$t(monsters.Imperial Golem)",
+            "$t(monsters.Cyclops)",
+            "$t(monsters.Cave Troll)",
+            "$t(monsters.Toad)",
+            "$t(monsters.Frightener)",
+            "$t(monsters.Unseen Elder)",
+            "$t(monsters.Ice Giant)",
+            "$t(monsters.Gaunter O'Dimm)"
+        ]
+    },
+    "setupHelper": {
+        "title": "Aufbauhilfe",
+        "error": "Fehler, Spielerzahl ungültig. Muss zwischen 1 und 5 sein.",
+        "collapse": "Alle einklappen",
+        "expand": "Alle erweitern",
+        "base": {
+            "1": "Breitet den Spielplan aus.",
+            "actionCards": "Mischt die Hexerkarten und legt sie alle auf einen Stapel. Deckt nun so lange Karten von diesem Stapel auf, bis 3 Karten mit Kosten 0 aufgedeckt wurden. Legt diese 3 Karten aufgedeckt auf die untersten drei Plätze. Mischt alle anderen aufgedeckten Karten zurück in den Stapel und zieht 3 weitere und legt diese aufgedeckt auf die 3 verbleibenden Plätze.",
+            "attrTrophies": [
+                "Zieht 1 zufällige Attribut-Trophäenkarte und legt sie aufgedeckt auf höhe der Erkundungskarten neben den Spielplan.",
+                "Zieht 1 zufällige Attribut-Trophäenkarte und legt sie aufgedeckt auf höhe der Erkundungskarten neben den Spielplan.",
+                "Legt je 1 Attribut-Trophäenkarte für jedes Attribut als Stapel aufgedeckt auf höhe der Erkundungskarten neben den Spielplan.",
+                "Legt je 1 Attribut-Trophäenkarte für jedes Attribut als Stapel aufgedeckt auf höhe der Erkundungskarten neben den Spielplan.",
+                "Legt alle 8 Attribut-Trophäenkarte als Stapel aufgedeckt auf höhe der Erkundungskarten neben den Spielplan.",
+                "Legt alle 8 Attribut-Trophäenkarte als Stapel aufgedeckt auf höhe der Erkundungskarten neben den Spielplan."
+            ],
+            "potions": "Mischt alle Trankkarten und legt sie auf höhe der Hexerkarten neben den Spielplan.",
+            "decks": "Mischt alle Wildnis- und Stadterkundungskarten. Die Ereigniskarten werden nicht gemischt! Legt alle drei Stapel auf die entsprechenden Plätze auf dem Spielplan.",
+            "tokens": "Legt alle Goldmünzen, Pokerwürfel und das \"Taverne geschlossen\"-Plättchen oder Miniatur neben den Spielplan.",
+            "locationTokens": "Sortiert alle Ortsplättchen nach Gelände in drei Stapel, mischt diese Stapel und legt sie verdeckt neben den Spielplan. Zieht von jedem dieser Stapel ein Plättchen und legt diese aufgedeckt auf den dafür vorgesehenen Platz auf dem Spielplan neben dem Platz für die Aktiven Monster.",
+            "monsterSetup": {
+                "0": "Sortiert alle Monsterkarten und Monsterplättchen nach ihrem Rang (I, II und III). Legt die Karten aufgedeckt neben den Spielplan. Mischt die Monsterplättchen und legt sie verdeckt vor die Karten.",
+                "1": "Bildet aus $t(common.token, { 'context': 'level1', 'count': {{count}}}) einen zusätzlichen Stapel Monsterplättchen. Siehe s. 26 der Basisregeln für deren Verwendung.",
+                "2": [
+                    "Zieht 3 Monsterplättchen: Eins von jedem Rang.",
+                    "Zieht 3 Monsterplättchen: Eins von jedem Rang.",
+                    "Zieht 3 Monsterplättchen: 2 x Rang I und 1 x Rang II.",
+                    "Zieht 3 Monsterplättchen: 3 x Rang I.",
+                    "Zieht 3 Monsterplättchen: 3 x Rang I.",
+                    "Zieht 3 Monsterplättchen: 3 x Rang I."
+                ],
+                "3": "Plaziert die drei Monsterplättchen zufällig auf den Orten der drei zuvor aufgedeckten Ortsplättchen.",
+                "4": "Deckt die drei Monsterplättchen auf und legt die dazugehörige Monsterkarte auf den Platz neben dem zugehörigen Ortsplättchen. Falls vorhanden, ersetzt die Monsterplättchen mit den entsprechenden Miniaturen.",
+                "5": "Monster vorbereiten:"
+            },
+            "monsterFightDeck": "Mischt alle Monster-Angriffskarten und legt sie verdeckt als Stapel neben dem Spielplan.",
+            "startingPlayer": "Wer zuletzt ein Hexer-Buch gelesen hat, beginnt die Partie. Alternativ könnt ihr auch zufällig entscheiden. Jeder nimmt sich ein Exemplar beider Übersichtskarten.",
+            "playerSetup": {
+                "base": "Nehmt eine Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Schildmarker, den Siegmarker und die 10 Hexer-Startkarten. (Startkarten haben das Symbol der Schulen in der oberen rechten Ecke.)",
+                "baseMages": "Nehmt eine Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Energiemarker, den Siegmarker und die 10 Magier-Startkarten. (Startkarten haben das Symbol der Medallions in der oberen rechten Ecke.)",
+                "baseMonsterTrail": "Nehmt eine Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Energiemarker, den Siegmarker und die 11 Magier-Startkarten. (Startkarten haben das Symbol der Medallions in der oberen rechten Ecke.)",
+                "baseMagesMonsterTrail": "Nehmt eine Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Energiemarker, den Siegmarker und die 11 Magier-Startkarten. (Startkarten haben das Symbol der Medallions in der oberen rechten Ecke.)",
+                "wildHunt": "Nehmt eine \"Wilde Jagd\"-Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Schildmarker, den Siegmarker und die 10 Hexer-Startkarten. (Startkarten haben das Symbol der Schulen in der oberen rechten Ecke.)",
+                "wildHuntMages": "Nehmt eine \"Wilde Jagd\"-Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Energiemarker, den Siegmarker und die 10 Magier-Startkarten. (Startkarten haben das Symbol der Medallions in der oberen rechten Ecke.)",
+                "wildHuntMonsterTrail": "Nehmt eine \"Wilde Jagd\"-Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Schildmarker, den Siegmarker und die 11 Hexer-Startkarten. (Startkarten haben das Symbol der Schulen in der oberen rechten Ecke.)",
+                "wildHuntMagesMonsterTrail": "Nehmt eine \"Wilde Jagd\"-Übersichtskarte, ein Charaktertableau und die dazuhegörige Miniatur mit Farbring, die 5 Holzwürfel, den Energiemarker, den Siegmarker und die 11 Magier-Startkarten. (Startkarten haben das Symbol der Medallions in der oberen rechten Ecke.)",
+                "trophyCards": "Nehmt $t(common.card, {'count': {{count}}, 'context': '{{context}}'}) (Gleich der Anzahl deiner Mitspieler).",
+                "ifMage": "Im Falle eines Magiers, legt einen Siegmarker und den Spezialisierungsmarker auf den Spielplan und überdecke damit die entsprechenden Symbole einer freien Hexerschule.",
+                "markers": "Nehmt die 5 Holzwürfel und den Schildmarker und legt sie auf das Charaktertableau, jeweils auf die niedrigste Stufe aller 4 Attributsleisten, der Schildleiste und der Hexer-Stufenleiste.",
+                "markersMages": "Nehmt die 5 Holzwürfel und den Energiemarker und legt sie auf das Charaktertableau, jeweils auf die niedrigste Stufe aller 4 Attributsleisten, der Energieleiste und der Magier-Stufenleiste.",
+                "raiseAttr": "Jeder von euch wählt eins seiner Attribute, das um 1 Stufe steigt.",
+                "token": "Nehmt die Siegmarker und Legt sie auf das unterste Feld der Siegleiste.",
+                "cards": "Mischt die Startkarten und legt sie als Stapen verdeckt auf die linke seite der Charaktertableaus.",
+                "miniature": "Platziert die Miniaturen aller Mitaspieler auf den entsprechenden Schulen auf dem Spielplan.",
+                "drawBaseHeader": "Nehmt die folgende Anahl Karten von eurem Startdeck und Gold anhand der Spielerposition: ",
+                "drawWildHunt": "Ziehe 5 Karten und nimm 3 Gold.",
+                "title": "Jeder Spieler muss:",
+                "drawBaseResources": [
+                    [
+                        "Platzhalter für 0 Spieler"
+                    ],
+                    [
+                        "$t(common.player1): $t(common.card, {'count': 5}), $t(common.gold, {'count': 3})"
+                    ],
+                    [
+                        "$t(common.player1): $t(common.card, {'count': 3}), $t(common.gold, {'count': 2})",
+                        "$t(common.player2): $t(common.card, {'count': 5}), $t(common.gold, {'count': 4})"
+                    ],
+                    [
+                        "$t(common.player1): $t(common.card, {'count': 3}), $t(common.gold, {'count': 2})",
+                        "$t(common.player2): $t(common.card, {'count': 4}), $t(common.gold, {'count': 4})",
+                        "$t(common.player3): $t(common.card, {'count': 5}), $t(common.gold, {'count': 6})"
+                    ],
+                    [
+                        "$t(common.player1): $t(common.card, {'count': 2}), $t(common.gold, {'count': 4})",
+                        "$t(common.player2): $t(common.card, {'count': 3}), $t(common.gold, {'count': 5})",
+                        "$t(common.player3): $t(common.card, {'count': 4}), $t(common.gold, {'count': 6})",
+                        "$t(common.player4): $t(common.card, {'count': 5}), $t(common.gold, {'count': 7})"
+                    ],
+                    [
+                        "$t(common.player1): $t(common.card, {'count': 2}), $t(common.gold, {'count': 5})",
+                        "$t(common.player2): $t(common.card, {'count': 3}), $t(common.gold, {'count': 5})",
+                        "$t(common.player3): $t(common.card, {'count': 4}), $t(common.gold, {'count': 7})",
+                        "$t(common.player4): $t(common.card, {'count': 4}), $t(common.gold, {'count': 7})",
+                        "$t(common.player5): $t(common.card, {'count': 5}), $t(common.gold, {'count': 7})"
+                    ]
+                ]
+            }
+        },
+        "legendaryHunt": {
+            "help": "Legt die Große \"Legendäre Monster\"-Übersichtskarte neben den Spielplan, wählt seite B für ein längeres Spiel.",
+            "choose": "Wählt ein Legendäres Monster. Legt die entsprechende Große Monsterkarte und die gemischten Monster-Angriffskarten für legendäre Monster neben den Spielplan. Platziert die entsprechende Monsterminiatur auf den auf der Karte angegebenen Ort. Mischt die Zerstörungsplättchen und legt sie verdeckt neben den Spielplan.",
+            "movementDeck": "Der letze Spieler (rechts vom Startspieler) nimmt die Bewegungskarten für legendäre Monster (gemischt und verdeckt)."
+        },
+        "wildHunt": {
+            "difficultyTitle": "Wählt die Schwierigkeitsstufe auf der Tabelle unten. Diese definiert die Startmoster und Schilde später.",
+            "difficultyValues": [
+                [
+                    "Platzhalter für 0 Spieler"
+                ],
+                [
+                    "$t(monsters.lvl1)\n$t(common.token, { 'context': 'shield', 'count': 5 })",
+                    "$t(monsters.lvl1)\n$t(common.token, { 'context': 'shield', 'count': 7 })",
+                    "$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 9 })",
+                    "$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 11 })"
+                ],
+                [
+                    "$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 28 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 31 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 34 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 37 })"
+                ],
+                [
+                    "$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 54 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl2)\n$t(common.token, { 'context': 'shield', 'count': 58 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 62 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 66 })"
+                ],
+                [
+                    "2 × $t(monsters.lvl1)\n$t(common.token, { 'context': 'shield', 'count': 77 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 82 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 87 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 92 })"
+                ],
+                [
+                    "2 × $t(monsters.lvl1)\n$t(common.token, { 'context': 'shield', 'count': 97 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 106 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 113 })",
+                    "$t(monsters.lvl1)\n$t(monsters.lvl3)\n$t(common.token, { 'context': 'shield', 'count': 120 })"
+                ]
+            ],
+            "easy": "Einfach nur die Geschichte!",
+            "medium": "Das Schwert und die Geschichte!",
+            "hard": "Blut, Schweiß und Tränen!",
+            "veryHard": "Todesmarsch!",
+            "manage": "Nehmt den Rundenplan passend zu eurer Spieleranzahl, wählt eine Person die ihn verwaltet, und legt ihn in ihre Nähe. Legt den Rundenmarker auf das Feld mit der „1“ oben links auf dem Plan.",
+            "createExplorationDeck": "Bildet einen Erkundungsstapel: Mischt 3 zufällige „ErkundungII“-Erkundungskarten. Mischt dann {{num}} zufällige „ErkundungI“-Erkundungskarten und legt sie verdeckt oben auf die „ErkundungII“-Karten.",
+            "decks": "Legt den Erkundungsstapel und die \"Wilde Jadg\"-Ereigniskarten ohne zu Mischen auf die entsprechenden plätze auf dem Spielplan. (Die Stadt- und Wildniserkundungskarten aus dem Basisspiel werden bei der Wilden Jagd nicht verwendet)",
+            "tokens": "Legt Goldmünzen, Questmarker, Pokerwürfel und das \"Taverne geschlossen\"-Plättchen neben den Spielplan.",
+            "monsterSetup": [
+                "Zieht ein Monsterplättchen anhand der Schwierigkeitsstufe. Zieht ein Wald-Ortsplättchen. Platziert das Monsterplättchen oder die Miniatur auf der entsprechenden Ort auf dem Spielplan. Legt seine Monsterkarte und das Ortsplättchen auf den entsprechenden Platz auf dem Spielplan.",
+                "Wenn die Schwierigkeitsstufe ein zweites Monster vorgibt, wiederhold den obrigen Schritt mit einem Wasser-Ortsplättchen."
+            ],
+            "monsterFightDeck": "Mischt alle Monster-Angriffskarten und legt sie verdeckt als Stapel neben dem Spielplan. Legt den Monsterangriff-Marker in die nähe des Stapels.",
+            "enemies": [
+                "Entscheidet gemeinsam, gegen welches Mitglied der Wilden Jagd ihr antreten möchtet. Legt seine Karte und die 4 „Wilde Jagd“-Angriffs-karten neben den Spielplan.",
+                "Legt die „Wilde Jagd“-Schildmarker entsprechend der Schwierigkeitsstufe auf das Mitglied der Wilden Jagd.",
+                "Zieht ein Gebirgs-Ortsplättchen, Platziert die \"Wilde Jagd\" Miniatur dort und Mischt das Ortsplättchen wieder in den Stapel.",
+                "Legt alle Hundeminiaturen und Hunde-Bonusplättchen neben den Spielplan und nehmt euch die zu eurer Spieleranzahl passende Hundekarte."
+            ],
+            "movementPool": "Bildet einen „Wilde Jagd“-Bewegungsvorrat. Dafür legt jeder seinen Siegmarker neben den Rundenplan. Fügt diesem Vorrat das „Taverne geschlossen“-Plätt-chen hinzu. Mischt den Vorrat verdeckt."
+        },
+        "skellige": {
+            "playmat": [
+                "Bei verwendung der Spielmatte:",
+                "Ignoriert die Plättchen, Hafen-Symbole sind bereits auf der Spielmatte aufgedruckt",
+                "Platziert die Schiffs-Miniaturen auf den folgenden zufälligen Orten:"
+            ],
+            "board": [
+                "Bei verwendung des Spielbretts:",
+                "Mische die Hafen-Plättchen, Anker nach oben",
+                "Legt sie auf die Küstenorte (1, 5, 6, 9, 12, 13) und dreht sie um",
+                "Platziert die Schiffs-Miniaturen auf die drei Orte mit dem Schiffs-Symbol",                
+                "Dreht sie wieder auf die Ankerseite, als erinnerung"
+            ],
+            "decks": "Mische die Skellige Erkundungskarten. Die Skellige Ereigniskarten werden nicht gemischt! Platziere beide in ihren Plätzen über den Inseln auf dem Spielfeld.",
+            "dagon": "Platziere die Dagon-Miniatur auf das, der Spielerzahl entsprechende, Startfeld. Mischt die Dagon-Bonuskarten zu einem Stapel und legt diesen gemeinsam mit der Dagon-Monsterkarte und den Dagon-Spurenplättchen neben den Spielplan.",
+            "dagonMT": "Platziere die Dagon-Miniatur auf das, der Spielerzahl entsprechende, Startfeld. Mischt die Dagon-Bonuskarten zu einem Stapel und legt diesen gemeinsam mit der großen Dagon-Monsterkarte und den Dagon-Spurenplättchen neben den Spielplan.",
+            "siren": "Platziere die Sirenen-Miniatur am Dagon-Standort, mit ihrer Monsterkarte in der Nähe."
+        },
+        "magesExp": {
+            "actionCards": "Wiederhole den obrigen Schritt für die Magier-Aktionskarten. (Oder ersetze den Schritt falls nur mit Magiern gespielt wird.)"
+        },
+        "monsterTrail": {
+            "mutagen": "Mische des Mutagen-Stapel und lege ihn unter den Stapel der Attribut-Trophäenkarten.",
+            "bomb": "Mische die Bomben und platziere sie unter den Stapel mit den Tränken.",
+            "lgCards": "Lege die zugehörigen großen Monsterkarten neben das Spielfeld.",
+            "spFightCards": "Entferne 8 Monser-Kampfkarten aus dem Stapel. Legt 4 zurück ind ie Schachtel und legt 4 für später (wenn ein Rang III Monster erscheint) beiseite. Mische die Spezial-Monster-Angriffskarten in die Monster-Angriffskarten.",
+            "weaknessTokens": "Ziehe 3 Ortsplättchen (1 von jeder Geländeart). Wenn ein Hexer auf diesem Ort steht, ziehe erneut. Platziere ein zufälliges Schwächeplättchen der passenden Geländeart verdeckt auf alle Orte. Mischt jetzt alle Ortsplättchen zurück in ihre stapel."
+        },
+        "adventurePack": {
+            "tokens": "Legt alle Goldmünzen, Questmarker, Pokerwürfel und das \"Taverne geschlossen\"-Plättchen oder Miniatur neben den Spielplan.",
+            "lostMount": "Zieht 2 Ortsplättchen von einem beliebigen Stapel, wählt eins und stellt die „Verlorenes Reittier“-Miniatur an diesen Ort auf dem Spielplan. Die Ortsplättchen werden wieder zurück in ihre Stapel gemischt."
+        }
+    },
+    "inventoryChecker": {
+        "title": "Inventarprüfer",
+        "cardSubtitle": "Karten",
+        "noteTitle": "Notizen",
+        "noteText": [
+            "Dies ist derzeit ein erster Durchlauf, um diesen Inventarprüfer so schnell wie möglich den Empfängern der Spiele der zweiten Welle zur verfügung zu stellen, und daher wird er minimal und (wahrscheinlich) ohne Übersetzung sein.",
+            "Ich habe vor, kurz nach der Veröffentlichung separate Abschnitte für die Spielsteine und Miniaturen hinzuzufügen.",
+            "Aktuell sind die Kontrollkästchen nicht dauerhaft gespeichert. Wenn Sie die Seite aktualisieren oder verlassen, geht Ihr Fortschritt verloren. Entschuldigen Sie die Unannehmlichkeiten, während ich das kläre."
+        ],
+        "legendHeader": "Legende",
+        "legendBody": {
+            "header": "Wenn zwei Spalten vorhanden sind: von links nach rechts, von oben nach unten lesen. Dadurch wird sichergestellt, dass die laufenden Summen von Karten, die sich auf mehrere Packs verteilen (z.B. 'Monsterkarten: 11 (11/29)'), ordnungsgemäß gelesen werden.",
+            "body": [
+                {
+                    "title": "TWOW(XX) Y/Z",
+                    "details": [
+                        "Dies ist der Titel der grauen Karte für jedes Kartenset. So beziehe ich mich auf jedes Set.",
+                        "XX ist der willkürliche Code, den der Lieferant zur Identifizierung der Kartenkartons verwendet hat.",
+                        "Y ist die aktuelle Nummer des Kartensets von insgesamt Kartensets für den Code XX.",
+                        "Z ist die Gesamtanzahl der Kartensets für den Wert XX."
+                    ]
+                },
+                {
+                    "title": "$t(common.expansions)",
+                    "details": [
+                        "Dies sind die Erweiterungen, zu denen die Karten in diesem Set gehören."
+                    ]
+                },
+                {
+                    "title": "Beispielkartentypen: X (Y/Z) ODER X/Z",
+                    "details": [
+                        "Beispieltyp ist die Art der Karte, wie sie in den 'Komponenten'-Listen von Go On Board bezeichnet wird.",
+                        "X gibt an, wie viele dieser Karten in diesem Set enthalten sind.",
+                        "Y ist die aktuelle Gesamtanzahl dieser Kartentypen über alle Sets hinweg. Wenn ausgelassen, sind alle Karten dieses Typs in diesem Set enthalten.",
+                        "Z ist die Gesamtanzahl dieser Karten, die Sie haben sollten."
+                    ]
+                },
+                {
+                    "title": "(AP)",
+                    "details": [
+                        "Dies ist eine Erläuterung für Abenteuerset-Karten. Diese sind durch das Sternsymbol oben in der Mitte der Kartenvorderseite gekennzeichnet."
+                    ]
+                }
+            ]
+        },
+        "Base Set": "Basis Set",
+        "Adventure Pack, Wild Hunt, Monster Trail": "$t(exps.adventurePack), $t(exps.wildHunt), $t(exps.monsterTrail)",
+        "Adventure Pack": "$t(exps.adventurePack)",
+        "Wild Hunt, Mages, Adventure Pack": "$t(exps.wildHunt), $t(exps.mages), $t(exps.adventurePack)",
+        "Monster Trail, Adventure Pack, Ciri": "$t(exps.monsterTrail), $t(exps.adventurePack), $t(exps.ciri)",
+        "Monster Trail, Wild Hunt": "$t(exps.monsterTrail), $t(exps.wildHunt)",
+        "Mages": "$t(exps.mages)",
+        "Legendary Hunt": "$t(exps.legendaryHunt)",
+        "Skellige": "$t(exps.skellige)",
+        "cardsInPack": "Karten im Set",
+        "Starting Action cards": "Start-Aktionskarten",
+        "Action cards": "Aktionskarten",
+        "Help cards": "Übersichtskarten",
+        "Solo Help card": "Solo-Modus Übersichtskarten",
+        "Monster cards": "Monsterkarten",
+        "City Exploration cards": "Stadterkundungskarten",
+        "Attribute Trophy cards": "Attribut-Trophäenkarten",
+        "Monster Fight cards": "Monster-Angriffskarten",
+        "Event cards": "Ereigniskarten",
+        "Potion cards": "Trank-Karten",
+        "Witcher Trophy cards": "Hexer-Trophäenkarten",
+        "Wilds Exploration cards": "Wildniserkundungskarten",
+        "(AP) Wilds Exploration cards": "(AS) Wildniserkundungskarten",
+        "Wild Hunt Monster Fight cards": "\"Wilde Jagd\" Monster-Angriffskarten",
+        "Special Monster Fight cards": "Spezial Monster-Angriffskarten",
+        "(AP) City Exploration cards": "(AS) Stadterkundungskarten",
+        "(AP) Event cards": "(AP) Ereigniskarten",
+        "Mutagens": "Mutagene",
+        "Wild Hunt Help": "\"Wilde Jagd\" Übersichtskarten",
+        "Hounds": "Hunde",
+        "Wild Hunt Monsters": "\"Wilde Jagd\" Monster",
+        "Wild Hunt Exploration - Stage 1": "\"Wilde Jagd\" Erkundung - Abschnitt 1",
+        "Wild Hunt Exploration - Stage 2": "\"Wilde Jagd\" Erkundung - Abschnitt 2",
+        "Wild Hunt Event": "\"Wilde Jagd\" Ereignisse",
+        "Mage Special Action": "Spezial Magier-Aktionskarten",
+        "Lost Mount": "Verlorenes Reittier",
+        "Monster card (Troll)": "Monsterkarte (Troll)",
+        "Trophy cards": "Trophäenkarten",
+        "Bomb cards": "Bomben-Karten",
+        "Starting Action cards (Manticore)": "Startaktionskarten (Mantikor)",
+        "Advanced Action cards": "Erweiterte Aktionskarten",
+        "Starting Action cards (Ciri)": "Startaktionskarten (Ciri)",
+        "Unique Action cards (witchers)": "Einzigartige Aktionskarten (Hexer)",
+        "Large Monster cards": "Große Monsterkarten",
+        "Difficulty Jumbo Reference cards": "Große Übersichtskarte",
+        "Mage Unique Action cards":  "Einzigartige Aktionskarten (Magier)",
+        "Mage Trophy cards": "Magier-Trophäenkarten",
+        "Mage Action cards": "Magier-Aktionskarten",
+        "Legendary Monster movement cards": "Legendäre Monster Bewegungskarten",
+        "Legendary Hunt Special Fight cards": "Legendäre Monster Spezial Angriffskarten",
+        "Large Legendary Monster cards": "Große Legendäre Monsterkarten",
+        "Large Fight Reference card": "Große Kampf-Übersichtskarte",
+        "Dagon Bonus Monster cards": "Dragon Bonus Monsterkarten",
+        "Skellige Event cards": "Skellige Ereigniskarten",
+        "Skellige Exploration cards": "Skellige Erkundungskarten"
+    },
+    "communityLinks": {
+        "title": "Community Links",
+        "contentType": {
+            "link": "Link",
+            "video": "Video",
+            "pdf": "PDF",
+            "member": "Community-Mitglied erstellt"
+        },
+        "officialDiscord": "Offizieller Discord",
+        "links": [
+            {
+                "title": "$t(communityLinks.officialDiscord)",
+                "subtitle": "$t(communityLinks.contentType.link)",
+                "desc": "Der offizielle Go On Board Discord-Server. Diskutiere Regeln, teile deine bemalten Miniaturen oder chatte einfach über das Spiel.",
+                "link": "https://discord.com/invite/mX8yvYQTuq"
+            },
+            {
+                "title": "Offizielle Anleitung: Organisation aller Karten in der Big Box",
+                "subtitle": "$t(communityLinks.contentType.video)",
+                "desc": "Eine ausführlichere Anleitung darüber, wie man alle Karten in die Big Box unterbringt.",
+                "link": "https://youtu.be/Hj7oTXJOFfg"
+            },
+            {
+                "title": "Offizielle FAQ: Klarstellung von unklaren Regeln/Situationen",
+                "subtitle": "$t(communityLinks.contentType.pdf)",
+                "desc": "Antworten und Klarstellungen für potenziell verwirrende oder schwierige Situationen.",
+                "link": "https://www.dropbox.com/s/6fxx058x76kc9rn/FAQ_ENG_v01.pdf?dl=0"
+            },
+            {
+                "title": "BoardGameGeek Old World Dateien",
+                "subtitle": "$t(communityLinks.contentType.link)",
+                "desc": "Noch eine Community, in der Mitglieder ihre eigenen Kreationen, Automaten, Anleitungen und mehr hochladen.",
+                "link": "https://boardgamegeek.com/boardgame/331106/witcher-old-world/files"
+            },
+            {
+                "title": "Positionen der Monster in den Trays",
+                "subtitle": "$t(communityLinks.contentType.member)",
+                "desc": "Eine ausführliche Anleitung zur Positionierung aller Monster-Miniaturen in ihren entsprechenden Fächern (nur Big Box).",
+                "link": "https://boardgamegeek.com/filepage/259976/witcher-monster-tray-position"
+            },
+            {
+                "title": "Organisatoren für Karten und Spielsteine",
+                "subtitle": "$t(communityLinks.contentType.member)",
+                "desc": "3D-Drucker-Dateien für Kartenorganisatoren, die besser in die Big Box passen, sowie Spielsteinorganisatoren.",
+                "link": "https://thingiverse.com/thing:6078120"
+            }
+        ]
+    },
+    "lostMount": {
+        "title": "\"Verlorenes Reittier\" Orte"
+    },
+    "footer": {
+        "aboutTitle": "Über mich",
+        "aboutBody": [
+            "Ich arbeite alleine an diesem inoffiziellen Fan-Website-Projekt in meiner Freizeit. Wenn dir meine Arbeit gefällt, denke darüber nach, mir einen Kaffee zu spendieren!",
+            "Updates für diese Website werden kontinuierlich veröffentlicht. Wenn du daran interessiert bist, an der Verbesserung dieses Tools teilzunehmen, schau dir bitte die Github-Links an, um Fehlerberichte auszufüllen, Verbesserungsvorschläge zu machen, meine aktuellen Aufgaben und Ideen einzusehen, an Umfragen zur nächsten großen Verbesserung/Funktion teilzunehmen und mehr!"
+        ],
+        "github": "Github",
+        "projectTimeline": "Project Zeitplan",
+        "githubLinks": [
+            {
+                "text": "Fehler gefunden?",
+                "link": "https://github.com/swirle13/The-Witcher-Old-World-Tool-Issues/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+"
+            },
+            {
+                "text": "Verbesserungsvorschlag?",
+                "link": "https://github.com/swirle13/The-Witcher-Old-World-Tool-Issues/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=%5BENHANCEMENT%5D+"
+            },
+            {
+                "text": "Diskussionen",
+                "link": "https://github.com/swirle13/The-Witcher-Old-World-Tool-Issues/discussions"
+            },
+            {
+                "text": "$t(footer.projectTimeline)",
+                "link": "https://github.com/users/swirle13/projects/2/views/3"
+            },
+            {
+                "text": "Aufgaben",
+                "link": "https://github.com/users/swirle13/projects/2/views/1"
+            },
+            {
+                "text": "Alle Fehler und Verbesserungen",
+                "link": "https://github.com/swirle13/The-Witcher-Old-World-Tool-Issues/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
+            },
+            {
+                "text": "Quellcode",
+                "link": "https://github.com/swirle13/The-Witcher-Old-World-Tool"
+            }
+        ],
+        "communities": "Communities",
+        "communitiesLinks": [
+            {
+                "text": "$t(communityLinks.officialDiscord)",
+                "link": "https://discord.com/invite/mX8yvYQTuq"
+            },
+            {
+                "text": "Offizieller Twitter-Kanal",
+                "link": "https://twitter.com/board_go26242"
+            },
+            {
+                "text": "Offizieller Instagram-Kanal",
+                "link": "https://www.instagram.com/go.on.board"
+            },
+            {
+                "text": "Kickstarter",
+                "link": "https://www.kickstarter.com/projects/goonboard/the-witcher"
+            },
+            {
+                "text": "BoardGameGeek",
+                "link": "https://boardgamegeek.com/boardgame/331106/witcher-old-world"
+            }
+        ],
+        "supportTitle": "Unterstütze Me",
+        "supportLinks": [
+            {
+                "text": "Kauf mir einen Kaffee ☕️",
+                "link": "https://bmc.link/swirle13"
+            }
+        ]
+    }
+}
